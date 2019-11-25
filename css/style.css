@@ -1,0 +1,70 @@
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('//i.imgur.com/VpXKi82.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+
+/* Experience */
+
+.item {
+    margin-top: 10px;
+}
+
+
+/* Colors */
+
+
+/* Normal Colors */
+
+.orange {
+    background-color: orange;
+}
+
+.blue {
+    background-color: #1B73BA;
+}
+
+.purple {
+    background-color: #777BB3;
+}
+
+.yellow {
+    background-color: #FBD601;
+}
+
+.green {
+    background-color: rgb(86, 226, 86);
+}
+
+
+/* Text Color */
+
+.text-orange {
+    color: orange;
+}
+
+.text-blue {
+    color: #1B73BA;
+}
+
+.text-purple {
+    color: #777BB3;
+}
+
+.text-yellow {
+    color: #FBD601;
+}
+
+.text-green {
+    color: rgb(86, 226, 86);
+}
