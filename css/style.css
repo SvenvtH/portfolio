@@ -1,3 +1,6 @@
+/* Font */
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
 .masthead {
     height: 100vh;
     min-height: 500px;
@@ -17,6 +20,10 @@ html {
     scroll-behavior: smooth;
 }
 
+ul {
+    list-style-type: none
+}
+
 
 /* Experience */
 
@@ -25,10 +32,31 @@ html {
 }
 
 
+/* Contact */
+
+.contact-item {
+    color: black;
+}
+
+.contact-item a {
+    color: black;
+    margin-left: 5px;
+    font-size: 18px;
+}
+
+.contact-item a:hover {
+    color: gray;
+}
+
+
 /* Colors */
 
 
 /* Normal Colors */
+
+.black {
+    background-color: black;
+}
 
 .orange {
     background-color: orange;
@@ -52,6 +80,10 @@ html {
 
 
 /* Text Color */
+
+.text-black {
+    color: black;
+}
 
 .text-orange {
     color: orange;
