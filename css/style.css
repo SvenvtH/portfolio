@@ -25,6 +25,17 @@ ul {
 }
 
 
+/* Mobile Media */
+
+@media (min-width: 100px) and (max-width: 576px) {
+    .card {
+        margin: 0 auto;
+        float: none;
+        margin-bottom: 10px;
+    }
+}
+
+
 /* Experience */
 
 .item {
