@@ -4,7 +4,7 @@
 .masthead {
     height: 100vh;
     min-height: 500px;
-    background-image: url('//i.imgur.com/VpXKi82.jpg');
+    background-image: url('../src/img/header.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -20,7 +20,7 @@ html {
     scroll-behavior: smooth;
 }
 
-ul {
+ul.navbar-nav {
     list-style-type: none
 }
 
@@ -87,6 +87,23 @@ ul {
 
 .green {
     background-color: rgb(86, 226, 86);
+}
+
+.red {
+    background-color: red;
+}
+
+.dark-green {
+    background-color: darkgreen;
+}
+
+.orange-link {
+    color: orange;
+}
+
+.orange-link:hover {
+    color: rgb(216, 119, 0);
+
 }
 
 
