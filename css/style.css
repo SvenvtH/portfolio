@@ -114,6 +114,14 @@ ul.navbar-nav {
     color: #00991f;
 }
 
+.darker-blue {
+    color: #5865F2
+}
+
+.darker-blue:hover {
+    color: #1f2cc0;
+}
+
 
 /* Text Color */
 
