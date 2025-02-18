@@ -1,150 +1,158 @@
 /* Font */
 
-@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Ubuntu&display=swap");
 .masthead {
-    height: 100vh;
-    min-height: 500px;
-    background-image: url('../src/img/header.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  height: 100vh;
+  min-height: 500px;
+  background-image: url("/src/img/header.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 hr {
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)
+  );
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 ul.navbar-nav {
-    list-style-type: none
+  list-style-type: none;
 }
-
-
-/* Mobile Media */
-
-@media (min-width: 100px) and (max-width: 576px) {
-    .card {
-        margin: 0 auto;
-        float: none;
-        margin-bottom: 10px;
-    }
-}
-
 
 /* Experience */
 
 .item {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
+#experience .container .row {
+  display: flex;
+  flex-direction: row;
+}
 
 /* Contact */
 
 .contact-item {
-    color: black;
+  color: black;
 }
 
 .contact-item a {
-    color: black;
-    margin-left: 5px;
-    font-size: 18px;
+  color: black;
+  margin-left: 5px;
+  font-size: 18px;
 }
 
 .contact-item a:hover {
-    color: gray;
+  color: gray;
 }
 
-
 /* Colors */
-
 
 /* Normal Colors */
 
 .black {
-    background-color: black;
+  background-color: black;
 }
 
 .orange {
-    background-color: orange;
+  background-color: orange;
 }
 
 .blue {
-    background-color: #1B73BA;
+  background-color: #1b73ba;
 }
 
 .purple {
-    background-color: #777BB3;
+  background-color: #777bb3;
 }
 
 .yellow {
-    background-color: #FBD601;
+  background-color: #fbd601;
 }
 
 .green {
-    background-color: rgb(86, 226, 86);
+  background-color: rgb(86, 226, 86);
 }
 
 .red {
-    background-color: red;
+  background-color: red;
 }
 
 .dark-green {
-    background-color: darkgreen;
+  background-color: darkgreen;
 }
 
 .orange-link {
-    color: orange;
+  color: orange;
 }
 
 .orange-link:hover {
-    color: rgb(216, 119, 0);
-
+  color: rgb(216, 119, 0);
 }
 
 .green-link {
-    color:#00D32A;
+  color: #00d32a;
 }
 
 .green-link:hover {
-    color: #00991f;
+  color: #00991f;
 }
 
 .darker-blue {
-    color: #5865F2
+  color: #5865f2;
 }
 
 .darker-blue:hover {
-    color: #1f2cc0;
+  color: #1f2cc0;
 }
-
 
 /* Text Color */
 
 .text-black {
-    color: black;
+  color: black;
 }
 
 .text-orange {
-    color: orange;
+  color: orange;
 }
 
 .text-blue {
-    color: #1B73BA;
+  color: #1b73ba;
 }
 
 .text-purple {
-    color: #777BB3;
+  color: #777bb3;
 }
 
 .text-yellow {
-    color: #FBD601;
+  color: #fbd601;
 }
 
 .text-green {
-    color: rgb(86, 226, 86);
+  color: rgb(86, 226, 86);
+}
+
+/* Mobile Media */
+
+@media (min-width: 100px) and (max-width: 576px) {
+  .card {
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+  }
+
+  #experience .container .row {
+    display: flex;
+    flex-direction: column;
+  }
 }
